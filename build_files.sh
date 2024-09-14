@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
-python3 ./AkademyShop/shop/manage.py runserver
+python ./AkademyShop/shop/manage.py runserver
