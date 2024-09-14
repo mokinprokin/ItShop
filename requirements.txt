@@ -1,2 +1,2 @@
 django==5.0.6
-_sqlite==3.45.3
+sqlite
