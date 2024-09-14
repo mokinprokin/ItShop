@@ -1,7 +1,7 @@
 {
     "builds": [
         {
-            "src": "AkademyShop/shop/manage.py",
+            "src": "AkademyShop/shop/shop/wsgi.py",
             "use": "@vercel/python",
             "config": { "maxLambdaSize": "15mb", "runtime": "python3.12" }
           },
@@ -20,7 +20,7 @@
           },
         {
         "src": "/(.*)",
-        "dest": "AkademyShop/shop/manage.py"
+        "dest": "AkademyShop/shop/shop/wsgi.py"
         }
     ]
 
